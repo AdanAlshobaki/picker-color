@@ -1,0 +1,80 @@
+
+    .option-color{
+        width: 240px;
+        padding: 15px;
+       border-top: 6px solid #2f7a5c; 
+       
+    }
+         .option-color label{
+        display:inline-block;
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        margin: 5px;
+      
+     }
+    .option-color  input[type="radio"]{
+        display: none;
+    }
+   
+     .shape{
+     width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      border: 2px solid #ccc;
+      background-color: #ccc;
+      margin: 30px auto 0 auto; 
+
+
+
+  }
+         #color1:checked ~ .shape { 
+        background-color: #ff9c99;
+     }   
+      #color2:checked ~ .shape { 
+        background-color: #6fefb0;
+     }  
+         #color3:checked ~ .shape { 
+        background-color: #8ac2ed;
+     }   
+         #color4:checked ~ .shape { 
+        background-color: #dcccff;
+     }  
+         #color5:checked ~ .shape { 
+        background-color: #ff0000;
+     }  
+         #color6:checked ~ .shape { 
+        background-color: #ffb224;
+     } 
+         #color7:checked ~ .shape { 
+        background-color: #f2524b;
+     } 
+         #color8:checked ~ .shape { 
+        background-color: #f2a468;
+     } 
+         #color9:checked ~ .shape { 
+        background-color: #cf8c82;
+     } 
+         #color10:checked ~ .shape { 
+        background-color: #fcf000;
+     } 
+         #color11:checked ~ .shape { 
+        background-color: #a729ac;
+     }    
+         #color12:checked ~ .shape { 
+        background-color: #ebadff;
+     }  
+         #color13:checked ~ .shape { 
+        background-color: #32a852;
+     }  
+         #color14:checked ~ .shape { 
+        background-color: #7e89e6;
+     } 
+
+
+
+ 
+
+
+  
+
